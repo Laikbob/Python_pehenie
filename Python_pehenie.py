@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import matplotlib.pyplot as plt
 import numpy as np
+from tkinter import messagebox
 
 
 def solve_equation():
@@ -56,7 +57,7 @@ root = Tk()
 root.geometry("900x400")
 root.resizable(False, False)
 root.title("Решение квадратного уравнения")
-root.configure(bg="white")  # Фон окна белый
+root.configure(bg="white")
 
 # Заголовок
 Label(root, text="Решение квадратного уравнения", font=("Arial", 20), bg="white").pack(pady=20)
